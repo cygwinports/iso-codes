@@ -1,0 +1,4 @@
+category: Text
+sdesc: "ISO country, language and currency codes and translations"
+ldesc: "This package aims to provide the list of the ISO country, language, 
+and currency names and their translations in one place."

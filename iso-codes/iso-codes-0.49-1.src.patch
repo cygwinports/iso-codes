@@ -1,0 +1,12 @@
+diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depcomp -x install-sh -x missing -x mkinstalldirs -x autom4te.cache -x '*compile' -x 'intltool*.in' -x 'xml-i18n-*.in' -x '*.pyc' -x '*.mo' -x '*.gmo' -x ABOUT-NLS -x Makevars.template -x COPYING -x INSTALL -x '*.orig' -x '*.rej' -x '*~' -x 'Makefile.in*' -x configure iso-codes-0.49-orig/configure.ac iso-codes-0.49/configure.ac
+--- iso-codes-0.49-orig/configure.ac	2005-10-28 14:46:05.000000000 -0500
++++ iso-codes-0.49/configure.ac	2006-04-17 18:21:41.655625000 -0500
+@@ -16,7 +16,7 @@
+ dnl
+ dnl $Id: iso-codes-0.49-1.src.patch,v 1.1.1.1 2006-06-16 18:57:02 yselkowitz Exp $
+ 
+-AC_INIT([ISO Codes],[0.47],[],[iso-codes])
++AC_INIT([ISO Codes],[0.49],[],[iso-codes])
+ 
+ AC_REVISION([$Revision: 1.1.1.1 $])
+ 
