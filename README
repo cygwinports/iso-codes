@@ -4,8 +4,8 @@ This package aims to provide the list of the ISO country, language, and
 currency names and their translations in one place.
 
 Build requirements:
-  cygwin-1.5.21-2
-  cygport-0.2.6-1
+  cygwin-1.5.24-2
+  cygport-0.2.11-1
   gettext-devel-0.15-1
   make-3.81-1
 
@@ -18,25 +18,25 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack iso-codes-0.58-1-src.tar.bz2
+  unpack iso-codes-1.1-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./iso-codes-0.58-1.cygport all
+  cygport ./iso-codes-1.1-1.cygport all
 
 This will create:
-  /usr/src/iso-codes-0.58-1-src.tar.bz2
-  /usr/src/iso-codes-0.58-1.tar.bz2
+  /usr/src/iso-codes-1.1-1-src.tar.bz2
+  /usr/src/iso-codes-1.1-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/share/doc/Cygwin/iso-codes-0.58.README
-  /usr/share/doc/iso-codes-0.58/ChangeLog
-  /usr/share/doc/iso-codes-0.58/INSTALL
-  /usr/share/doc/iso-codes-0.58/README
-  /usr/share/doc/iso-codes-0.58/TODO
+  /usr/share/doc/Cygwin/iso-codes-1.1.README
+  /usr/share/doc/iso-codes-1.1/ChangeLog
+  /usr/share/doc/iso-codes-1.1/INSTALL
+  /usr/share/doc/iso-codes-1.1/README
+  /usr/share/doc/iso-codes-1.1/TODO
   /usr/share/iso-codes/iso_3166.tab
   /usr/share/iso-codes/iso_639.tab
   /usr/share/locale/aa/LC_MESSAGES/iso_3166.mo
@@ -110,6 +110,7 @@ Files included in the binary package:
   /usr/share/locale/el/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/el/LC_MESSAGES/iso_639.mo
   /usr/share/locale/el/LC_MESSAGES/iso_639_3.mo
+  /usr/share/locale/en/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/eo/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/eo/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/eo/LC_MESSAGES/iso_639.mo
@@ -252,6 +253,7 @@ Files included in the binary package:
   /usr/share/locale/mk/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/mk/LC_MESSAGES/iso_639.mo
   /usr/share/locale/mk/LC_MESSAGES/iso_639_3.mo
+  /usr/share/locale/ml/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/mn/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/mn/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/mn/LC_MESSAGES/iso_4217.mo
@@ -455,6 +457,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.1-1 -----
+Version bump.
 
 ----- version 0.58-1 -----
 Version bump.
