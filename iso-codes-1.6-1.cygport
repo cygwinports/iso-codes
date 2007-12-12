@@ -1,0 +1,16 @@
+DESCRIPTION="Provides the list of country and language names"
+HOMEPAGE="http://alioth.debian.org/projects/pkg-isocodes/"
+SRC_URI="ftp://pkg-isocodes.alioth.debian.org/pub/pkg-isocodes/${P}.tar.bz2
+	ftp://pkg-isocodes.alioth.debian.org/pub/pkg-isocodes/${P}.tar.bz2.sig"
+
+DIFF_EXCLUDES="${PN}.pc"
+
+src_compile() {
+	cd ${S}
+	cygautoreconf
+
+	lndirs
+	cd ${B}
+	cygconf
+	cygmake
+}
