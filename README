@@ -4,8 +4,7 @@ This package aims to provide the list of the ISO country, language, and
 currency names and their translations in one place.
 
 Build requirements:
-  cygwin-1.5.24-2
-  cygport-0.3.7-1
+  cygport-0.3.12-1
   gettext-devel-0.15-1
   make-3.81-1
 
@@ -18,32 +17,28 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack iso-codes-1.6-1-src.tar.bz2
+  unpack iso-codes-3.2-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./iso-codes-1.6-1.cygport all
+  cygport ./iso-codes-3.2-1.cygport all
 
 This will create:
-  /usr/src/iso-codes-1.6-1-src.tar.bz2
-  /usr/src/iso-codes-1.6-1.tar.bz2
+  /usr/src/iso-codes-3.2-1-src.tar.bz2
+  /usr/src/iso-codes-3.2-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/share/doc/iso-codes-1.6/ChangeLog
-  /usr/share/doc/iso-codes-1.6/INSTALL
-  /usr/share/doc/iso-codes-1.6/README
-  /usr/share/doc/iso-codes-1.6/TODO
+  /usr/share/doc/iso-codes-3.2/ChangeLog
+  /usr/share/doc/iso-codes-3.2/INSTALL
+  /usr/share/doc/iso-codes-3.2/LICENSE
+  /usr/share/doc/iso-codes-3.2/README
+  /usr/share/doc/iso-codes-3.2/TODO
   /usr/share/iso-codes/iso_3166.tab
   /usr/share/iso-codes/iso_639.tab
-  /usr/share/locale/aa/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/aa/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/aa/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/af/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/af/LC_MESSAGES/iso_3166_2.mo
-  /usr/share/locale/af/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/af/LC_MESSAGES/iso_639.mo
   /usr/share/locale/af/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/am/LC_MESSAGES/iso_3166.mo
@@ -51,27 +46,21 @@ Files included in the binary package:
   /usr/share/locale/am/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/ar/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/ar/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/ar/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/ar/LC_MESSAGES/iso_639.mo
   /usr/share/locale/ar/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/az/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/az/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/az/LC_MESSAGES/iso_639.mo
   /usr/share/locale/az/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/be/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/be/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/be/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/be/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/bg/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/bg/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/bg/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/bg/LC_MESSAGES/iso_639.mo
   /usr/share/locale/bg/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/bn/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/bn/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/bn/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/br/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/br/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/br/LC_MESSAGES/iso_639.mo
   /usr/share/locale/br/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/bs/LC_MESSAGES/iso_3166.mo
@@ -81,19 +70,16 @@ Files included in the binary package:
   /usr/share/locale/byn/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/byn/LC_MESSAGES/iso_639.mo
   /usr/share/locale/byn/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/ca/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/ca/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/ca/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/ca/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/ca/LC_MESSAGES/iso_639.mo
   /usr/share/locale/ca/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/cs/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/cs/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/cs/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/cs/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/cs/LC_MESSAGES/iso_639.mo
   /usr/share/locale/cs/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/cy/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/cy/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/cy/LC_MESSAGES/iso_639.mo
   /usr/share/locale/cy/LC_MESSAGES/iso_639_3.mo
@@ -108,9 +94,6 @@ Files included in the binary package:
   /usr/share/locale/de/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/de/LC_MESSAGES/iso_639.mo
   /usr/share/locale/de/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/dv/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/dv/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/dv/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/dz/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/el/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/el/LC_MESSAGES/iso_3166.mo
@@ -119,6 +102,7 @@ Files included in the binary package:
   /usr/share/locale/el/LC_MESSAGES/iso_639.mo
   /usr/share/locale/el/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/en/LC_MESSAGES/iso_3166_2.mo
+  /usr/share/locale/eo/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/eo/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/eo/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/eo/LC_MESSAGES/iso_639.mo
@@ -131,7 +115,6 @@ Files included in the binary package:
   /usr/share/locale/es/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/et/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/et/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/et/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/et/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/et/LC_MESSAGES/iso_639.mo
   /usr/share/locale/et/LC_MESSAGES/iso_639_3.mo
@@ -141,7 +124,6 @@ Files included in the binary package:
   /usr/share/locale/eu/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/fa/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/fa/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/fa/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/fa/LC_MESSAGES/iso_639.mo
   /usr/share/locale/fa/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/fi/LC_MESSAGES/iso_15924.mo
@@ -151,8 +133,6 @@ Files included in the binary package:
   /usr/share/locale/fi/LC_MESSAGES/iso_639.mo
   /usr/share/locale/fi/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/fo/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/fo/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/fo/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/fr/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/fr/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/fr/LC_MESSAGES/iso_3166_2.mo
@@ -168,32 +148,19 @@ Files included in the binary package:
   /usr/share/locale/gez/LC_MESSAGES/iso_639.mo
   /usr/share/locale/gez/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/gl/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/gl/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/gl/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/gl/LC_MESSAGES/iso_639.mo
   /usr/share/locale/gl/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/gu/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/gu/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/gu/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/gv/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/gv/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/gv/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/haw/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/haw/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/haw/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/he/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/he/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/he/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/he/LC_MESSAGES/iso_639.mo
   /usr/share/locale/he/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/hi/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/hi/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/hi/LC_MESSAGES/iso_639.mo
   /usr/share/locale/hi/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/hr/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/hr/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/hr/LC_MESSAGES/iso_3166_2.mo
-  /usr/share/locale/hr/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/hr/LC_MESSAGES/iso_639.mo
   /usr/share/locale/hr/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/hu/LC_MESSAGES/iso_15924.mo
@@ -203,14 +170,11 @@ Files included in the binary package:
   /usr/share/locale/hu/LC_MESSAGES/iso_639.mo
   /usr/share/locale/hu/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/hy/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/hy/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/hy/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/id/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/id/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/id/LC_MESSAGES/iso_639.mo
   /usr/share/locale/id/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/is/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/is/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/is/LC_MESSAGES/iso_639.mo
   /usr/share/locale/is/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/it/LC_MESSAGES/iso_15924.mo
@@ -219,8 +183,6 @@ Files included in the binary package:
   /usr/share/locale/it/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/it/LC_MESSAGES/iso_639.mo
   /usr/share/locale/it/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/iu/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/iu/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/ja/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/ja/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/ja/LC_MESSAGES/iso_3166_2.mo
@@ -228,34 +190,18 @@ Files included in the binary package:
   /usr/share/locale/ja/LC_MESSAGES/iso_639.mo
   /usr/share/locale/ja/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/ka/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/ka/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/ka/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/kk/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/kk/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/kk/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/kl/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/kl/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/kl/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/km/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/kn/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/kn/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/kn/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/ko/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/ko/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/ko/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/ko/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/ko/LC_MESSAGES/iso_639.mo
   /usr/share/locale/ko/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/kok/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/kok/LC_MESSAGES/iso_639.mo
   /usr/share/locale/kok/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/ku/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/kw/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/kw/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/kw/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/ky/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/ky/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/ky/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/lt/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/lt/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/lt/LC_MESSAGES/iso_3166_2.mo
@@ -267,17 +213,14 @@ Files included in the binary package:
   /usr/share/locale/lv/LC_MESSAGES/iso_639.mo
   /usr/share/locale/lv/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/mi/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/mi/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/mi/LC_MESSAGES/iso_639.mo
   /usr/share/locale/mi/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/mk/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/mk/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/mk/LC_MESSAGES/iso_639.mo
   /usr/share/locale/mk/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/ml/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/ml/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/mn/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/mn/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/mn/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/mn/LC_MESSAGES/iso_639.mo
   /usr/share/locale/mn/LC_MESSAGES/iso_639_3.mo
@@ -285,18 +228,13 @@ Files included in the binary package:
   /usr/share/locale/mr/LC_MESSAGES/iso_639.mo
   /usr/share/locale/mr/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/ms/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/ms/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/ms/LC_MESSAGES/iso_639.mo
   /usr/share/locale/ms/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/mt/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/mt/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/mt/LC_MESSAGES/iso_3166_2.mo
-  /usr/share/locale/mt/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/mt/LC_MESSAGES/iso_639.mo
   /usr/share/locale/mt/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/nb/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/nb/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/nb/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/nb/LC_MESSAGES/iso_639.mo
   /usr/share/locale/nb/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/ne/LC_MESSAGES/iso_3166.mo
@@ -316,46 +254,34 @@ Files included in the binary package:
   /usr/share/locale/nso/LC_MESSAGES/iso_639.mo
   /usr/share/locale/nso/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/oc/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/oc/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/oc/LC_MESSAGES/iso_639.mo
   /usr/share/locale/oc/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/om/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/om/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/om/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/pa/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/pa/LC_MESSAGES/iso_4217.mo
-  /usr/share/locale/pa/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/pa/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/pl/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/pl/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/pl/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/pl/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/pl/LC_MESSAGES/iso_639.mo
   /usr/share/locale/pl/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/ps/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/ps/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/ps/LC_MESSAGES/iso_639.mo
   /usr/share/locale/ps/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/pt/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/pt/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/pt/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/pt/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/pt/LC_MESSAGES/iso_639.mo
   /usr/share/locale/pt/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/pt_BR/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/pt_BR/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/pt_BR/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/pt_BR/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/pt_BR/LC_MESSAGES/iso_639.mo
   /usr/share/locale/pt_BR/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/ro/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/ro/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/ro/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/ro/LC_MESSAGES/iso_639.mo
   /usr/share/locale/ro/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/ru/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/ru/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/ru/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/ru/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/ru/LC_MESSAGES/iso_639.mo
   /usr/share/locale/ru/LC_MESSAGES/iso_639_3.mo
@@ -363,11 +289,6 @@ Files included in the binary package:
   /usr/share/locale/rw/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/rw/LC_MESSAGES/iso_639.mo
   /usr/share/locale/rw/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/sa/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/sa/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/sa/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/sid/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/sid/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/sk/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/sk/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/sk/LC_MESSAGES/iso_3166_2.mo
@@ -380,14 +301,8 @@ Files included in the binary package:
   /usr/share/locale/sl/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/sl/LC_MESSAGES/iso_639.mo
   /usr/share/locale/sl/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/so/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/so/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/so/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/so/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/sq/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/sq/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/sq/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/sq/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/sr/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/sr/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/sr/LC_MESSAGES/iso_3166_2.mo
@@ -401,18 +316,9 @@ Files included in the binary package:
   /usr/share/locale/sv/LC_MESSAGES/iso_639.mo
   /usr/share/locale/sv/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/sw/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/sw/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/sw/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/syr/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/syr/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/ta/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/ta/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/ta/LC_MESSAGES/iso_639.mo
   /usr/share/locale/ta/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/te/LC_MESSAGES/iso_15924.mo
-  /usr/share/locale/te/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/te/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/te/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/th/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/th/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/th/LC_MESSAGES/iso_3166_2.mo
@@ -442,12 +348,6 @@ Files included in the binary package:
   /usr/share/locale/uk/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/uk/LC_MESSAGES/iso_639.mo
   /usr/share/locale/uk/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/ur/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/ur/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/ur/LC_MESSAGES/iso_639_3.mo
-  /usr/share/locale/uz/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/uz/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/uz/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/ve/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/ve/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/ve/LC_MESSAGES/iso_639.mo
@@ -463,11 +363,8 @@ Files included in the binary package:
   /usr/share/locale/wa/LC_MESSAGES/iso_639.mo
   /usr/share/locale/wa/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/wal/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/wal/LC_MESSAGES/iso_639.mo
-  /usr/share/locale/wal/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/wo/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/xh/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/xh/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/xh/LC_MESSAGES/iso_639.mo
   /usr/share/locale/xh/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/zh_CN/LC_MESSAGES/iso_15924.mo
@@ -482,12 +379,9 @@ Files included in the binary package:
   /usr/share/locale/zh_HK/LC_MESSAGES/iso_639.mo
   /usr/share/locale/zh_TW/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/zh_TW/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/zh_TW/LC_MESSAGES/iso_3166_2.mo
-  /usr/share/locale/zh_TW/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/zh_TW/LC_MESSAGES/iso_639.mo
   /usr/share/locale/zh_TW/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/zu/LC_MESSAGES/iso_3166.mo
-  /usr/share/locale/zu/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/zu/LC_MESSAGES/iso_639.mo
   /usr/share/locale/zu/LC_MESSAGES/iso_639_3.mo
   /usr/share/pkgconfig/iso-codes.pc
@@ -501,6 +395,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 3.2-1 -----
+Version bump.
 
 ----- version 1.6-1 -----
 Version bump.
