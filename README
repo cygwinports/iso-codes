@@ -4,8 +4,8 @@ This package aims to provide the list of the ISO country, language, and
 currency names and their translations in one place.
 
 Build requirements:
-  cygport-0.3.12-1
-  gettext-devel-0.15-1
+  cygport-0.4.3-1
+  gettext-devel-0.17-2
   make-3.81-1
 
 Canonical homepage:
@@ -17,26 +17,25 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack iso-codes-3.2-1-src.tar.bz2
+  unpack iso-codes-3.5-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./iso-codes-3.2-1.cygport all
+  cygport ./iso-codes-3.5-1.cygport all
 
 This will create:
-  /usr/src/iso-codes-3.2-1-src.tar.bz2
-  /usr/src/iso-codes-3.2-1.tar.bz2
+  /usr/src/iso-codes-3.5-1-src.tar.bz2
+  /usr/src/iso-codes-3.5-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/share/doc/iso-codes-3.2/ChangeLog
-  /usr/share/doc/iso-codes-3.2/INSTALL
-  /usr/share/doc/iso-codes-3.2/LICENSE
-  /usr/share/doc/iso-codes-3.2/README
-  /usr/share/doc/iso-codes-3.2/TODO
-  /usr/share/iso-codes/iso_3166.tab
+  /usr/share/doc/iso-codes-3.5/ChangeLog
+  /usr/share/doc/iso-codes-3.5/INSTALL
+  /usr/share/doc/iso-codes-3.5/LICENSE
+  /usr/share/doc/iso-codes-3.5/README
+  /usr/share/doc/iso-codes-3.5/TODO
   /usr/share/iso-codes/iso_639.tab
   /usr/share/locale/af/LC_MESSAGES/iso_3166.mo
   /usr/share/locale/af/LC_MESSAGES/iso_639.mo
@@ -253,7 +252,10 @@ Files included in the binary package:
   /usr/share/locale/nso/LC_MESSAGES/iso_3166_2.mo
   /usr/share/locale/nso/LC_MESSAGES/iso_639.mo
   /usr/share/locale/nso/LC_MESSAGES/iso_639_3.mo
+  /usr/share/locale/oc/LC_MESSAGES/iso_15924.mo
   /usr/share/locale/oc/LC_MESSAGES/iso_3166.mo
+  /usr/share/locale/oc/LC_MESSAGES/iso_3166_2.mo
+  /usr/share/locale/oc/LC_MESSAGES/iso_4217.mo
   /usr/share/locale/oc/LC_MESSAGES/iso_639.mo
   /usr/share/locale/oc/LC_MESSAGES/iso_639_3.mo
   /usr/share/locale/pa/LC_MESSAGES/iso_3166.mo
@@ -395,6 +397,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 3.5-1 -----
+Version bump.
 
 ----- version 3.2-1 -----
 Version bump.
