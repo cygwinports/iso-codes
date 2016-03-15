@@ -1,5 +1,5 @@
 NAME="iso-codes"
-VERSION=3.63
+VERSION=3.66
 RELEASE=1
 CATEGORY="Text"
 SUMMARY="ISO country, language and currency codes and translations"
@@ -10,6 +10,16 @@ SRC_URI="http://pkg-isocodes.alioth.debian.org/downloads/iso-codes-${VERSION}.ta
 #SRC_URI="mirror://debian/pool/main/i/iso-codes/iso-codes_${VERSION}.orig.tar.xz"
 
 ARCH=noarch
+
+PKG_NAMES="${NAME} ${NAME}-devel"
+iso_codes_CONTENTS="
+	usr/share/doc/${NAME}/
+	usr/share/${NAME}/
+	usr/share/locale/*/*/iso_*
+	usr/share/xml/${NAME}/
+"
+iso_codes_devel_REQUIRES=${NAME}
+iso_codes_devel_CONTENTS="usr/share/pkgconfig/"
 
 src_compile() {
 	lndirs
