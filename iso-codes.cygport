@@ -1,5 +1,5 @@
 NAME="iso-codes"
-VERSION=3.70
+VERSION=3.75
 RELEASE=1
 CATEGORY="Text"
 SUMMARY="ISO country, language and currency codes and translations"
