@@ -1,13 +1,13 @@
 NAME="iso-codes"
-VERSION=3.75
+VERSION=4.3
 RELEASE=1
 CATEGORY="Text"
 SUMMARY="ISO country, language and currency codes and translations"
 DESCRIPTION="This package aims to provide the list of the ISO country, language,
 and currency names and their translations in one place."
-HOMEPAGE="http://pkg-isocodes.alioth.debian.org/"
-SRC_URI="http://pkg-isocodes.alioth.debian.org/downloads/iso-codes-${VERSION}.tar.xz"
-#SRC_URI="mirror://debian/pool/main/i/iso-codes/iso-codes_${VERSION}.orig.tar.xz"
+HOMEPAGE="https://salsa.debian.org/iso-codes-team/iso-codes"
+SRC_URI="${HOMEPAGE}/-/archive/${NAME}-${VERSION}/${NAME}-${NAME}-${VERSION}.tar.gz"
+SRC_DIR="${NAME}-${NAME}-${VERSION}"
 
 ARCH=noarch
 
